@@ -25,6 +25,7 @@
 
 	//Generate random number shown at start of game (should be between 19 - 120)
 		//this worked if you had a var Array for $gameOptions 
+		// var $rndCrystalVal = [1, 2, 3, 4, 5] - tried to do the same for the gem values
 			// $gameChallenge = $gameOptions[Math.floor((Math.random())*$gameOptions.length)];
 			// $(".challenge").html($gameChallenge);
 
