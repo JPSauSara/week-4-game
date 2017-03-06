@@ -1,0 +1,9 @@
+HTML - 
+
+	* for IDs, check to see if anything wrong happens if you call the ID in each CSS & JS once. Should they be changed to Classes or is this OK?
+
+	* See if the order matters (it should) of your <link> tags in the <Head>
+
+	* See if you can combine the Bootstap classses with those you created
+
+	* do you need both classes for the crystals? .gemimage and .crystals ? looks like they're doing the same thing

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+
+	<!-- reset CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- link to CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery CDN -->
+ 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ 	<!-- link to JavaScript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<!-- <script type="text/javascript" src="assets/javascript/test.js"></script> -->
+	
+
+</head>
+
+<body>	
+	<div class="container-fluid">
+		<h1>Crystal Collector</h1>
+	</div>
+
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+		<div class="instructions">
+		<p>You will be given a random number at the start of the game</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each crystal</p>
+		</div>
+		</div>
+	<!-- </div> -->
+
+	<!-- <div class="row"> -->
+		<div class="col-md-4">
+			<h3 class="challenge">39</h3>
+		</div>
+			<div class="col-md-2">
+			<div class="scoreboard">
+				<p id="wintotal">Wins: 0</p>
+				<p id="losstotal">Losses: 0</p>
+			</div>
+			</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+		<div class="crystals">
+		<img src="assets/images/bluegem.jpeg" class="img-rounded bluegem" alt="Bluegem">
+		<img src="assets/images/greengem.jpg" class="img-rounded greengem" alt="Greengem">
+		<img src="assets/images/whitegem.jpeg" class="img-rounded whitegem" alt="Whitegem">
+		<!-- added the BS .img-responsive class - see if it changes anything -->
+		<img src="assets/images/purplegem.jpeg" class="img-rounded .img-responsive purplegem" alt="Purplegem">
+		</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+		<h2 id="textbox"> Your total score is: </h2>
+		</div>
+	</div>
+
+	<div class="row">	
+		<div class="col-md-4">
+			<h3 class="userscore">0</h3>
+		</div>
+	</div>
+
+
+	</div>
+
+	<footer>
+		<div class="panel-footer">
+	  		Copyright &copy; 2017 Julia Saucedo
+		</div>
+	</footer>
+
+</body>
+
+</html>
