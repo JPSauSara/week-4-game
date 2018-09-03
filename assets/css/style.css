@@ -3,26 +3,70 @@ html, body {
 	position: relative;
 }
 
+*{
+  box-sizing: border-box;
+  }
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
 
 body {
 	background-image: url("../images/stardust.png");
 }
 
-h1 {
-	background-color: #FFCD4F;
-	padding: 12px;
+.container {
+  clear: both;
+	width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+	top: 0;
+	z-index: 99;
+	background-color: #f5bd2e;
+	margin-bottom: 15px;
+	padding: 5px 12px;
+}
+
+.main-container {
+  padding: 5% 10%;
+  min-height: 100vh; /* will cover the 100% of viewport */
+  position: relative;
+}
+
+footer {
+  color: #F1F1F1;
+  background-color: #2B2B2A;
+  text-align: center;
+  padding: 25px;
+  font-size: 12px;
+	margin-bottom: 0
+}
+
+.attention {
+	font-weight: 700;
+}
+
+.box {
+	background-color: #F7F7F8;
+	border-style: solid;
+	border-color: #df5343;
+	border-width: 3px;	
 }
 
 .instructions {
-	background-color: #ffffff;
+
 }
 
 .challenge {
-	background-color: #ffffff;
+
 }
 
 .scoreboard {
-	background-color: #ffffff;
+
 }
 
 img {
@@ -35,9 +79,5 @@ img {
 }
 
 .userscore {
-	background-color: #ffffff;
-}
-
-footer {
 	background-color: #ffffff;
 }

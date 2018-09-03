@@ -20,66 +20,73 @@
 
 </head>
 
-<body>	
-	<div class="container-fluid">
-		<h1>Crystal Collector</h1>
-	</div>
+<body>
+	
+	<header class="container">
+		<h1 class="attention">Crystal Collector</h1>
+		<p>Week 04 Homework: jQuery</p>
+	</header>
 
-	<div class="container">
-	<div class="row">
-		<div class="col-md-6">
-		<div class="instructions">
-		<p>You will be given a random number at the start of the game</p>
-		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-		<p>The value of each crystal is hidden from you until you click on it.</p>
-		<p>Each time when the game starts, the game will change the values of each crystal</p>
-		</div>
-		</div>
-	<!-- </div> -->
+	<!-- main container div starts -->
+	<div class="container main-container">
 
-	<!-- <div class="row"> -->
-		<div class="col-md-4">
-			<h3 class="challenge">39</h3>
+		<!-- First Row Start -->
+		<div class="row">
+
+			<div class="col-md-8 box instructions">
+				<h1>INSTRUCTIONS:</h1>
+				<p>You will be given a random number at the start of the game</p>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+				<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal</p>
+			</div>
+
+			<!-- <div class="col-md-4">
+					<h3 class="challenge">39</h3>
+				</div>
+					<div class="col-md-2">
+					<div class="scoreboard">
+						<p id="wintotal">Wins: 0</p>
+						<p id="losstotal">Losses: 0</p>
+					</div>
+			</div> -->
+
+		<!-- First Row End -->
 		</div>
-			<div class="col-md-2">
-			<div class="scoreboard">
-				<p id="wintotal">Wins: 0</p>
-				<p id="losstotal">Losses: 0</p>
+
+		<div class="row">
+			<div class="col-md-6">
+			<div class="crystals">
+			<img src="assets/images/bluegem.png" class="img-rounded bluegem" alt="Bluegem">
+			<img src="assets/images/greengem.png" class="img-rounded greengem" alt="Greengem">
+			<img src="assets/images/whitegem.png" class="img-rounded whitegem" alt="Whitegem">
+			<!-- added the BS .img-responsive class - see if it changes anything -->
+			<img src="assets/images/purplegem.png" class="img-rounded .img-responsive purplegem" alt="Purplegem">
 			</div>
 			</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-6">
-		<div class="crystals">
-		<img src="assets/images/bluegem.png" class="img-rounded bluegem" alt="Bluegem">
-		<img src="assets/images/greengem.png" class="img-rounded greengem" alt="Greengem">
-		<img src="assets/images/whitegem.png" class="img-rounded whitegem" alt="Whitegem">
-		<!-- added the BS .img-responsive class - see if it changes anything -->
-		<img src="assets/images/purplegem.png" class="img-rounded .img-responsive purplegem" alt="Purplegem">
 		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+			<h2 id="textbox"> Your total score is: </h2>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-md-4">
-		<h2 id="textbox"> Your total score is: </h2>
+		<div class="row">	
+			<div class="col-md-4">
+				<h3 class="userscore">0</h3>
+			</div>
 		</div>
-	</div>
-
-	<div class="row">	
-		<div class="col-md-4">
-			<h3 class="userscore">0</h3>
-		</div>
-	</div>
 
 
+	<!-- main conteiner div ends -->
 	</div>
 
 	<footer>
-		<div class="panel-footer">
-	  		Copyright &copy; 2017 Julia Saucedo
+		<div class="container">
+			<p>This activity was created as part of a homework assignment for the Northwestern University Web-Development Coding Bootcamp Spring 2017 Cohort.</p>	
+			<p class="attention">Copyright &copy; 2018 Julia Saucedo</p>
 		</div>
 	</footer>
 
