@@ -14,13 +14,14 @@ html, body {
 
 body {
 	background-image: url("../images/stardust.png");
+	font-size: 18px;
 }
 
 .container {
-  clear: both;
+  /* clear: both;
 	width: 100%;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 header {
@@ -29,12 +30,11 @@ header {
 	background-color: #f5bd2e;
 	margin-bottom: 15px;
 	padding: 5px 12px;
+	width: 100%;
 }
 
 .main-container {
-  padding: 5% 10%;
   min-height: 100vh; /* will cover the 100% of viewport */
-  position: relative;
 }
 
 footer {
@@ -52,9 +52,13 @@ footer {
 
 .box {
 	background-color: #F7F7F8;
+	background:rgba(241, 241, 241, 0.5);
 	border-style: solid;
-	border-color: #df5343;
-	border-width: 3px;	
+	border-color: #bef1ed;
+	border-width: 3px;
+	padding: 5px 10px;
+	margin: 15px 0px;
+	border-radius: 15px;
 }
 
 .instructions {
@@ -72,6 +76,7 @@ footer {
 img {
 	width: 100px;
 	height: 100px;
+	padding: 5px;
 }
 
 #textbox {
